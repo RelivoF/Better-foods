@@ -13,12 +13,13 @@ public class Foods {
         Item registeredItem = Registry.register(Registries.ITEM, itemID, item);
         return registeredItem;
     }
-
+    // Bread
     public static final Item RAW_DOUGH = register(
-            new Item(new Item.Settings().food(FoodComp.DOUGH)),
+            new Item(new Item.Settings().food(FoodComp.RAW_DOUGH)),
             "raw_dough"
     );
 
 
 
+    public static void load() {}
 }
