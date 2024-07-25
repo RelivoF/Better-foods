@@ -20,6 +20,5 @@ public class Foods {
     );
 
 
-
     public static void load() {}
 }
