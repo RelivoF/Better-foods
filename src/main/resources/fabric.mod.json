@@ -9,7 +9,7 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/better_foods/icon.png",
+  "icon": "assets/betterfoods/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -19,9 +19,6 @@
       "me.revilo.better_foods.BetterFoods"
     ]
   },
-  "mixins": [
-    "better_foods.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
